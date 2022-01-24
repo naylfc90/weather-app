@@ -2,10 +2,15 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import App from "../components/App";
 
-import location from "../data/forecast.json";
+import forecastInformation from "../data/forecast.json";
 
 test("renders the App", () => {
-  render(<App location={location.location} />);
+  render(
+    <App
+      location={forecastInformation.location}
+      forecasts={forecastInformation.forecasts}
+    />
+  );
   const header = screen.getByText(/Weather App/i);
   expect(header).toBeInTheDocument();
 });

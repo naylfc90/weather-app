@@ -8,7 +8,6 @@ import "./styles/index.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Weather App</h1>
     <App
       forecasts={forecastInformation.forecasts}
       location={forecastInformation.location}

@@ -8,6 +8,7 @@ import "../styles/App.css";
 const App = ({ location, forecasts }) => {
   return (
     <div className="forecast">
+      <h1>Weather App</h1>
       <LocationDetails city={location.city} country={location.country} />
       <ForecastSummaries forecasts={forecasts} />
     </div>
