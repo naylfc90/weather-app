@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import "../styles/ForecastSummaries.css";
+
 const ForecastSummary = (props) => {
   const { date, temperature, description, icon } = props;
   return (

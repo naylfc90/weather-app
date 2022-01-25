@@ -1,0 +1,16 @@
+.forecast-summaries {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.forecast-summary {
+  border: solid 1px;
+  border-radius: 10px;
+  background: #86bbd8;
+  padding: 30px;
+}
