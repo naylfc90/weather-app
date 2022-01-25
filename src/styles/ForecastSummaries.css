@@ -13,4 +13,10 @@
   border-radius: 10px;
   background: #86bbd8;
   padding: 30px;
+  width: 12%;
+}
+
+.forecast-summary__icon {
+  font-size: 40px;
+  padding: 10px;
 }
