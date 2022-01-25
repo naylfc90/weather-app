@@ -11,6 +11,6 @@ test("renders the App", () => {
       forecasts={forecastInformation.forecasts}
     />
   );
-  const header = screen.getByText(/Weather App/i);
+  const header = screen.getByText(/Manchester, UK/i);
   expect(header).toBeInTheDocument();
 });
