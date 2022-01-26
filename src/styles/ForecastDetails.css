@@ -1,0 +1,10 @@
+.forecast-details {
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 33%;
+  margin-right: 33%;
+  background: #86bbd8;
+  padding: 15px;
+  border: solid 2px;
+  border-radius: 10px;
+}
