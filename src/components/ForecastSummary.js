@@ -6,7 +6,7 @@ import moment from "moment";
 import "../styles/ForecastSummaries.css";
 
 const ForecastSummary = (props) => {
-  const { date, temperature, description, icon } = props;
+  const { date, temperature, description, icon, onSelect } = props;
   return (
     <div className="forecast-summary" data-testid="forecast-summary">
       <div className="forecast-summary__date">
@@ -26,6 +26,10 @@ const ForecastSummary = (props) => {
       </div>
 
       <div className="forecast-summary__description">{description}</div>
+
+      <button type="button" onClick={() => onSelect(date)}>
+        More Details
+      </button>
     </div>
   );
 };
@@ -34,6 +38,7 @@ ForecastSummary.propTypes = {
   date: PropTypes.number.isRequired,
   description: PropTypes.string.isRequired,
   icon: PropTypes.string.isRequired,
+  onSelect: PropTypes.func.isRequired,
   temperature: PropTypes.shape({
     min: PropTypes.number,
     max: PropTypes.number,

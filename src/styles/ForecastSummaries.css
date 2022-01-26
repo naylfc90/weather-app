@@ -16,6 +16,10 @@
   width: 12%;
 }
 
+/* .forecast-summary:hover {
+  background: #4d7ea8;
+} */
+
 .forecast-summary__icon {
   font-size: 40px;
   padding: 10px;
