@@ -13,6 +13,10 @@ body {
   background-color: #dad3d2;
 }
 
+button {
+  font-family: "Jost", sans-serif;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

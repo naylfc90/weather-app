@@ -26,7 +26,7 @@ const ForecastDetails = ({ forecast }) => {
       <div className="forecast-details__humidity">Humidity: {humidity}</div>
 
       <div className="forecast-details__wind">
-        Wind Speed: {wind.speed}
+        Wind: {wind.speed} mph
         <br />
         Wind Direction: {wind.direction}
       </div>

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="forecast"
+  >
+    <div
+      class="location-details"
+    >
+      <h1
+        class="location-details__header"
+      >
+        , 
+      </h1>
+    </div>
+    <div
+      class="forecast-summaries"
+    />
+  </div>
+</DocumentFragment>
+`;
