@@ -13,7 +13,8 @@ body {
   background-color: #dad3d2;
 }
 
-button {
+button,
+input {
   font-family: "Jost", sans-serif;
 }
 

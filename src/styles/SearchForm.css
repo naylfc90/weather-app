@@ -1,0 +1,19 @@
+.search-form__input {
+  text-align: center;
+  margin: 40px 10px 10px 3%;
+  top: 0;
+  position: fixed;
+  border-radius: 1px solid;
+  border-radius: 6px;
+}
+
+.search-form__button {
+  margin: 40px 20px 10px 14%;
+  top: 0;
+  position: fixed;
+  border-radius: 6px;
+}
+
+.search-form__button:hover {
+  background: #86bbd8;
+}

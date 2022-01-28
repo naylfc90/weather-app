@@ -23,7 +23,7 @@ const ForecastDetails = ({ forecast }) => {
         &deg;C
       </div>
 
-      <div className="forecast-details__humidity">Humidity: {humidity}</div>
+      <div className="forecast-details__humidity">Humidity: {humidity}%</div>
 
       <div className="forecast-details__wind">
         Wind: {wind.speed} mph
