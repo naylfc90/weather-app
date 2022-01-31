@@ -4,7 +4,7 @@ The aim for the project is to build a React web application to provide an accura
 
 You can see the UI version [here](https://naylfc90.github.io/weather-app/).
 
-[![weather-app-screenshot.png](https://postimg.cc/jDvvXmM1)](https://postimg.cc/jDvvXmM1)
+[![weather-app-screenshot.png](https://i.postimg.cc/XqNqmhQ8/weather-app-screenshot.png)](https://postimg.cc/BLyJ1hWL)
 
 ---
 
