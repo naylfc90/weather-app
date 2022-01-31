@@ -13,6 +13,9 @@ const getForecast = (
   if (searchText) {
     endpoint += `?city=${searchText}`;
   }
+  // } else {
+  //   endpoint += `?city=liverpool`;
+  // }
 
   axios
     .get(endpoint)
