@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 <DocumentFragment>
   <div
-    class="forecast"
+    class="weather-app"
   >
     <div
       class="location-details"
@@ -13,6 +13,22 @@ exports[`renders correctly 1`] = `
       >
         , 
       </h1>
+    </div>
+    <div
+      class="search-form"
+    >
+      <input
+        class="search-form__input"
+        placeholder="Enter a city"
+        type="text"
+        value=""
+      />
+      <button
+        class="search-form__button"
+        type="submit"
+      >
+        Search
+      </button>
     </div>
     <div
       class="forecast-summaries"

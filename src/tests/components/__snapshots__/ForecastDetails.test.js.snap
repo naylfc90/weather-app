@@ -24,14 +24,14 @@ exports[`ForecastDetails renders correctly 1`] = `
     <div
       class="forecast-details__humidity"
     >
-      Humidity: 30
+      Humidity: 30%
     </div>
     <div
       class="forecast-details__wind"
     >
-      Wind Speed: 20
+      Wind: 20 mph
       <br />
-      Wind Direction: n
+      Wind Direction: N
     </div>
   </div>
 </DocumentFragment>
