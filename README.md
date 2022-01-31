@@ -1,10 +1,12 @@
 # Weather App React App
 
-The aim for the project is to build a React web application to provide an accurate weather forecast. This project was built as part of Manchester Codes coding bootcamp, specifically the Front-End Module.
+The aim for the project is to build a React web application to provide an accurate weather forecast. This project was built as part of Manchester Codes coding bootcamp, specifically the Front-End Module. It incorporates React with HTML/CSS through JSX Rendering.
 
-You can see the UI version [here]: (https://naylfc90.github.io/weather-app/)
+You can see the UI version [here](https://naylfc90.github.io/weather-app/).
 
-It incorporates React with HTML/CSS through JSX Rendering.
+[![weather-app-screenshot.png](https://postimg.cc/jDvvXmM1)](https://postimg.cc/jDvvXmM1)
+
+---
 
 In the project directory, you can run:
 
