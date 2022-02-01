@@ -22,15 +22,16 @@ const getForecast = (
       setSelectedDate(response.data.forecasts[0].date);
       setForecasts(response.data.forecasts);
       setLocation(response.data.location);
+      setErrorMessage();
     })
     .catch((error) => {
       const { status } = error.response;
       if (status === 404) {
-        setErrorMessage("No such town or city, try again!");
+        setErrorMessage("Please enter a valid UK city");
         console.log("Location is not valid", error);
       }
       if (status === 500) {
-        setErrorMessage("Oops, server error, try again later.");
+        setErrorMessage("Oops, server error, try again later");
         console.log("Server error", error);
       }
     });
